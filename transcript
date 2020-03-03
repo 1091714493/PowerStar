@@ -1,0 +1,271 @@
+# Reading G:/modelsim/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# OpenFile C:/Users/HP/Desktop/MIPS/InstMem.v
+# Loading project mips
+# Compile of soc_tb.v was successful.
+# Compile of CP0.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of DataMem.v was successful.
+# Compile of define.v was successful.
+# Compile of EX.v was successful.
+# Compile of HiLo.v was successful.
+# Compile of ID.v was successful.
+# Compile of IF.v was successful.
+# Compile of InstMem.v failed with 2 errors.
+# Compile of IO.v was successful.
+# Compile of LLbit.v was successful.
+# Compile of MEM.v was successful.
+# Compile of MIOC.v was successful.
+# Compile of MIPS.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of SoC.v was successful.
+# 17 compiles, 1 failed with 2 errors.
+vsim -voptargs=+acc work.soc_tb
+# vsim -gui C:\Users\HP\Desktop\MIPS\InstMem.v 
+# Start time: 09:15:27 on Jul 04,2019
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: C:/Users/HP/Desktop/MIPS/SoC.v(67): (vopt-2685) [TFMPC] - Too few port connections for 'instrom0'.  Expected 4, found 3.
+# 
+# ** Warning: C:/Users/HP/Desktop/MIPS/SoC.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'clk'.
+# 
+# ** Warning: C:/Users/HP/Desktop/MIPS/soc_tb.v(23): (vopt-2685) [TFMPC] - Too few port connections for 'SoC0'.  Expected 6, found 4.
+# 
+# ** Warning: C:/Users/HP/Desktop/MIPS/soc_tb.v(23): (vopt-2718) [TFMPC] - Missing connection for port 'seg'.
+# 
+# ** Warning: C:/Users/HP/Desktop/MIPS/soc_tb.v(23): (vopt-2718) [TFMPC] - Missing connection for port 'seg_cs'.
+# 
+# Loading work.soc_tb(fast)
+# Loading work.SoC(fast)
+# Loading work.MIOC(fast)
+# Loading work.MIPS(fast)
+# Loading work.IF(fast)
+# Loading work.ID(fast)
+# Loading work.EX(fast)
+# Loading work.RegFile(fast)
+# Loading work.MEM(fast)
+# Loading work.HiLo(fast)
+# Loading work.LLbit(fast)
+# Loading work.CP0(fast)
+# Loading work.Ctrl(fast)
+# Loading work.InstMem(fast)
+# Loading work.DataMem(fast)
+# Loading work.IO(fast)
+# ** Warning: (vsim-3015) C:/Users/HP/Desktop/MIPS/MIPS.v(132): [PCDPC] - Port size (1) does not match connection size (5) for port 'we'. The port definition is at: C:/Users/HP/Desktop/MIPS/RegFile.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /soc_tb/SoC0/mips0/regfile0 File: C:/Users/HP/Desktop/MIPS/RegFile.v
+# ** Warning: (vsim-3015) C:/Users/HP/Desktop/MIPS/MIPS.v(146): [PCDPC] - Port size (1) does not match connection size (5) for port 'regWr'. The port definition is at: C:/Users/HP/Desktop/MIPS/MEM.v(13).
+#    Time: 0 ns  Iteration: 0  Instance: /soc_tb/SoC0/mips0/mem0 File: C:/Users/HP/Desktop/MIPS/MEM.v
+# Compile of soc_tb.v was successful.
+# Compile of CP0.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of DataMem.v was successful.
+# Compile of define.v was successful.
+# Compile of EX.v was successful.
+# Compile of HiLo.v was successful.
+# Compile of ID.v was successful.
+# Compile of IF.v was successful.
+# Compile of InstMem.v failed with 2 errors.
+# Compile of IO.v was successful.
+# Compile of LLbit.v was successful.
+# Compile of MEM.v was successful.
+# Compile of MIOC.v was successful.
+# Compile of MIPS.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of SoC.v was successful.
+# 17 compiles, 1 failed with 2 errors.
+# Break key hit
+vsim -voptargs=+acc work.soc_tb
+# vsim 
+# Start time: 09:16:15 on Jul 04,2019
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+# Loading work.soc_tb(fast)
+# Loading work.SoC(fast)
+# Loading work.MIOC(fast)
+# Loading work.MIPS(fast)
+# Loading work.IF(fast)
+# Loading work.ID(fast)
+# Loading work.EX(fast)
+# Loading work.RegFile(fast)
+# Loading work.MEM(fast)
+# Loading work.HiLo(fast)
+# Loading work.LLbit(fast)
+# Loading work.CP0(fast)
+# Loading work.Ctrl(fast)
+# Loading work.InstMem(fast)
+# Loading work.DataMem(fast)
+# Loading work.IO(fast)
+# ** Warning: (vsim-3015) C:/Users/HP/Desktop/MIPS/MIPS.v(132): [PCDPC] - Port size (1) does not match connection size (5) for port 'we'. The port definition is at: C:/Users/HP/Desktop/MIPS/RegFile.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /soc_tb/SoC0/mips0/regfile0 File: C:/Users/HP/Desktop/MIPS/RegFile.v
+# ** Warning: (vsim-3015) C:/Users/HP/Desktop/MIPS/MIPS.v(146): [PCDPC] - Port size (1) does not match connection size (5) for port 'regWr'. The port definition is at: C:/Users/HP/Desktop/MIPS/MEM.v(13).
+#    Time: 0 ns  Iteration: 0  Instance: /soc_tb/SoC0/mips0/mem0 File: C:/Users/HP/Desktop/MIPS/MEM.v
+add wave -position insertpoint sim:/soc_tb/SoC0/mips0/regfile0/reg32
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of soc_tb.v was successful.
+# Compile of CP0.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of DataMem.v was successful.
+# Compile of define.v was successful.
+# Compile of EX.v was successful.
+# Compile of HiLo.v was successful.
+# Compile of ID.v was successful.
+# Compile of IF.v was successful.
+# Compile of InstMem.v failed with 2 errors.
+# Compile of IO.v was successful.
+# Compile of LLbit.v was successful.
+# Compile of MEM.v was successful.
+# Compile of MIOC.v was successful.
+# Compile of MIPS.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of SoC.v was successful.
+# 17 compiles, 1 failed with 2 errors.
+# Compile of InstMem.v failed with 2 errors.
+# Compile of InstMem.v failed with 2 errors.
+# Compile of InstMem.v failed with 2 errors.
+# Compile of InstMem.v failed with 2 errors.
+# Compile of soc_tb.v was successful.
+# Compile of CP0.v was successful.
+# Compile of Ctrl.v was successful.
+# Compile of DataMem.v was successful.
+# Compile of define.v was successful.
+# Compile of EX.v was successful.
+# Compile of HiLo.v was successful.
+# Compile of ID.v was successful.
+# Compile of IF.v was successful.
+# Compile of InstMem.v was successful.
+# Compile of IO.v was successful.
+# Compile of LLbit.v was successful.
+# Compile of MEM.v was successful.
+# Compile of MIOC.v was successful.
+# Compile of MIPS.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of SoC.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.soc_tb
+# vsim 
+# Start time: 09:27:20 on Jul 04,2019
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.soc_tb(fast)
+# Loading work.SoC(fast)
+# Loading work.MIOC(fast)
+# Loading work.MIPS(fast)
+# Loading work.IF(fast)
+# Loading work.ID(fast)
+# Loading work.EX(fast)
+# Loading work.RegFile(fast)
+# Loading work.MEM(fast)
+# Loading work.HiLo(fast)
+# Loading work.LLbit(fast)
+# Loading work.CP0(fast)
+# Loading work.Ctrl(fast)
+# Loading work.InstMem(fast)
+# Loading work.DataMem(fast)
+# Loading work.IO(fast)
+# ** Warning: (vsim-3015) C:/Users/HP/Desktop/MIPS/MIPS.v(132): [PCDPC] - Port size (1) does not match connection size (5) for port 'we'. The port definition is at: C:/Users/HP/Desktop/MIPS/RegFile.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /soc_tb/SoC0/mips0/regfile0 File: C:/Users/HP/Desktop/MIPS/RegFile.v
+# ** Warning: (vsim-3015) C:/Users/HP/Desktop/MIPS/MIPS.v(146): [PCDPC] - Port size (1) does not match connection size (5) for port 'regWr'. The port definition is at: C:/Users/HP/Desktop/MIPS/MEM.v(13).
+#    Time: 0 ns  Iteration: 0  Instance: /soc_tb/SoC0/mips0/mem0 File: C:/Users/HP/Desktop/MIPS/MEM.v
+add wave -position insertpoint sim:/soc_tb/SoC0/mips0/regfile0/reg32
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim -voptargs=+acc work.soc_tb
+# vsim 
+# Start time: 10:26:32 on Jul 04,2019
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+# Loading work.soc_tb(fast)
+# Loading work.SoC(fast)
+# Loading work.MIOC(fast)
+# Loading work.MIPS(fast)
+# Loading work.IF(fast)
+# Loading work.ID(fast)
+# Loading work.EX(fast)
+# Loading work.RegFile(fast)
+# Loading work.MEM(fast)
+# Loading work.HiLo(fast)
+# Loading work.LLbit(fast)
+# Loading work.CP0(fast)
+# Loading work.Ctrl(fast)
+# Loading work.InstMem(fast)
+# Loading work.DataMem(fast)
+# Loading work.IO(fast)
+# ** Warning: (vsim-3015) C:/Users/HP/Desktop/MIPS/MIPS.v(132): [PCDPC] - Port size (1) does not match connection size (5) for port 'we'. The port definition is at: C:/Users/HP/Desktop/MIPS/RegFile.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /soc_tb/SoC0/mips0/regfile0 File: C:/Users/HP/Desktop/MIPS/RegFile.v
+# ** Warning: (vsim-3015) C:/Users/HP/Desktop/MIPS/MIPS.v(146): [PCDPC] - Port size (1) does not match connection size (5) for port 'regWr'. The port definition is at: C:/Users/HP/Desktop/MIPS/MEM.v(13).
+#    Time: 0 ns  Iteration: 0  Instance: /soc_tb/SoC0/mips0/mem0 File: C:/Users/HP/Desktop/MIPS/MEM.v
+vsim -voptargs=+acc work.soc_tb
+# vsim 
+# Start time: 10:28:25 on Jul 04,2019
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+# Loading work.soc_tb(fast)
+# Loading work.SoC(fast)
+# Loading work.MIOC(fast)
+# Loading work.MIPS(fast)
+# Loading work.IF(fast)
+# Loading work.ID(fast)
+# Loading work.EX(fast)
+# Loading work.RegFile(fast)
+# Loading work.MEM(fast)
+# Loading work.HiLo(fast)
+# Loading work.LLbit(fast)
+# Loading work.CP0(fast)
+# Loading work.Ctrl(fast)
+# Loading work.InstMem(fast)
+# Loading work.DataMem(fast)
+# Loading work.IO(fast)
+# ** Warning: (vsim-3015) C:/Users/HP/Desktop/MIPS/MIPS.v(132): [PCDPC] - Port size (1) does not match connection size (5) for port 'we'. The port definition is at: C:/Users/HP/Desktop/MIPS/RegFile.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /soc_tb/SoC0/mips0/regfile0 File: C:/Users/HP/Desktop/MIPS/RegFile.v
+# ** Warning: (vsim-3015) C:/Users/HP/Desktop/MIPS/MIPS.v(146): [PCDPC] - Port size (1) does not match connection size (5) for port 'regWr'. The port definition is at: C:/Users/HP/Desktop/MIPS/MEM.v(13).
+#    Time: 0 ns  Iteration: 0  Instance: /soc_tb/SoC0/mips0/mem0 File: C:/Users/HP/Desktop/MIPS/MEM.v
+add wave -position insertpoint sim:/soc_tb/SoC0/mips0/regfile0/reg32
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
